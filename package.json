@@ -1,0 +1,20 @@
+{
+  "name": "format-date",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:DP": "mocha calculateDistancePoints.test.js",
+    "test:SP": "mocha calculateStylePoints.test.js",
+    "test:TP": "mocha calculateTotalPoints.test.js",
+    "test:watch": "onchange \"./*.js\" -- npm test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "onchange": "^4.1.0"
+  }
+}
